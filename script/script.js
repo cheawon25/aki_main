@@ -1,8 +1,8 @@
 $(function(){
-  $(".mainmenu>li").hover(function(){
-    $(this).children("#sub").stop().slideDown();
+  $(".mainmenu").hover(function(){
+    $("#sub").stop().slideDown();
   },
   function(){
-    $(this).children("#sub").stop().slideUp();
+    $("#sub").stop().slideUp();
   });
 });
