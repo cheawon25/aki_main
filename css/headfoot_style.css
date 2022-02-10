@@ -51,6 +51,7 @@ header{position: relative; width: 100%; height: 185px;}
 /* 메인메뉴목록 */
 #mainmenu{background-color: #fcfcee; font-weight: bold; font-family: 'CookieRun-Regular';}
 .menu_inner{width: 1320px; margin: auto; height: 65px; box-sizing: border-box; padding-left: 180px;}
+.mainmenu{height: 65px;}
 .mainmenu>li{float: left; width: 150px; padding: 20px 0; margin-right: 130px; box-sizing: border-box; text-align: center;}
 .mainmenu>li>a{color: #f48473;}
 .mainmenu>li>a:hover{color: #f26b5e;}
